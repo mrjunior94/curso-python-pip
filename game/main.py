@@ -11,7 +11,7 @@ def computer_choice():
 def user_choice():
     """Gets the option the player will use."""
 
-    user= str(input("Select what you want to play this round: rock, paper, scissors.\n"))
+    user= str(input("Select what you want to play this round: rock, paper, scissors  .\n"))
     user= user.lower()
     if user in options:
         return user
