@@ -12,7 +12,8 @@ python3 main.py
 
 ```
 cd clone 
-cd app 
+cd app
+pyton3 -m venv amb 
 source amb/bin/activate 
 pip install -r requirements 
 python3 main.py 
